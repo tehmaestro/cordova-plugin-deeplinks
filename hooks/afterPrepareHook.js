@@ -24,6 +24,7 @@ module.exports = function(ctx) {
  * @param {Object} cordovaContext - cordova context object
  */
 function run(cordovaContext) {
+  return;
   var pluginPreferences = configParser.readPreferences(cordovaContext);
   var platformsList = cordovaContext.opts.platforms;
 
